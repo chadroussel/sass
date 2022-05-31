@@ -1,0 +1,26 @@
+.wrapper {
+  height: 300%;
+  font-family: "Lodstay";
+  font-size: xx-large;
+  color: #c9c9c9;
+  text-align: center;
+  background: #ec0404;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vars {
+  font-family: "Renogare Soft Regular";
+  font-size: xx-large;
+  text-align: center;
+  color: #ec0404;
+  background: #c9c9c9;
+}
+
+#footer {
+  font-family: "King Of Rock Demo";
+  color: #c9c9c9;
+  background-color: #ebebeb;
+  height: 400px;
+}
+/*# sourceMappingURL=new.css.map */

@@ -1,0 +1,39 @@
+// variables
+$headLine: "Lodstay";
+$inLine: "Renogare Soft Regular";
+$bg: rgb(236, 4, 4);
+$fg: rgb(201, 201, 201);
+
+@mixin box {
+  height: 300%;
+  font-family: $headLine;
+  font-size: xx-large;
+  color: $fg;
+  text-align: center;
+  background: $bg;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin rows {
+  font-family: $inLine;
+  font-size: xx-large;
+  text-align: center;
+  color: $bg;
+  background: $fg;
+}
+
+.wrapper {
+  @include box;
+}
+
+#vars {
+  @include rows;
+}
+
+#footer {
+  font-family: "King Of Rock Demo";
+  color: $fg;
+  background-color: rgb(235, 235, 235);
+  height: 400px;
+}
